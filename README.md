@@ -1,8 +1,15 @@
-# React + Vite
+Task Manager App
+A task management application built using React, Axios, and Firebase Authentication. Users can sign in, add, edit, and delete tasks, as well as drag and drop them into different categories. The app supports task categorization such as "To-Do", "In Progress", and "Done".
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
+Authentication: Users can sign in using Google account through Firebase Authentication.
+Task Management: Users can add, edit, and delete tasks with details like title, description, and category.
+Drag-and-Drop: Tasks can be dragged and dropped between categories ("To-Do", "In Progress", "Done").
+Real-Time Data: The task list is fetched from a backend server using Axios and updated in real-time.
+Responsive Design: The app is built with responsiveness in mind using Tailwind CSS.
+Tech Stack
+Frontend: React, Tailwind CSS
+Backend: Express.js, MongoDB (for storing tasks)
+Authentication: Firebase Authentication
+Drag-and-Drop: @hello-pangea/dnd
+Icons: React Icons (FaTrash, FaEdit, FaSignOutAlt)
