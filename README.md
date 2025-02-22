@@ -13,3 +13,6 @@ Backend: Express.js, MongoDB (for storing tasks)
 Authentication: Firebase Authentication
 Drag-and-Drop: @hello-pangea/dnd
 Icons: React Icons (FaTrash, FaEdit, FaSignOutAlt)
+
+Live link : https://tesk-managmet.web.app/
+
